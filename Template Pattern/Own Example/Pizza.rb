@@ -38,11 +38,11 @@ menu = "Pepperoni Polenta"
 ingredients = ["polenta", "salt", "olive oil", "sliced onion", "dried green bell pepper", "marinara sauce", "pepperoni", "tomato",
   "oregano", "mozzaretta cheese"]
 
-menu = "Barbeque Chicken"
-ingredients = ["sesame oil", "boneless chicken breast", "barbeque sauce", "marinara sauce", "mozzaretta cheese", "sliced red onion", "fresh cilantro"]
+menu1 = "Barbeque Chicken"
+ingredients1 = ["sesame oil", "boneless chicken breast", "barbeque sauce", "marinara sauce", "mozzaretta cheese", "sliced red onion", "fresh cilantro"]
 
-menu = "Four Cheese Margherita"
-ingredients = ["olive oil", "minced garlic", "seasalt garlic", "tomatoes", "mozzaretta cheese", "fontina cheese", "parmeson cheese", "feta cheese",
+menu2 = "Four Cheese Margherita"
+ingredients2 = ["olive oil", "minced garlic", "seasalt garlic", "tomatoes", "mozzaretta cheese", "fontina cheese", "parmeson cheese", "feta cheese",
   "basil leaves"]
 
 
