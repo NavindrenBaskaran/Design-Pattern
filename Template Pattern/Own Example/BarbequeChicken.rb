@@ -27,7 +27,6 @@ class BarbequeChicken < AbstractPizza
   end
 end
 
-
 menu = "Barbeque Chicken"
 ingredients = ["sesame oil", "boneless chicken breast", "barbeque sauce", "marinara sauce", "mozzaretta cheese", "sliced red onion", "fresh cilantro"]
 

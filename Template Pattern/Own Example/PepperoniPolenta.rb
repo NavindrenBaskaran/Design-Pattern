@@ -28,6 +28,5 @@ menu = "Pepperoni Polenta"
 ingredients = ["polenta", "salt", "olive oil", "sliced onion", "dried green bell pepper", "marinara sauce", "pepperoni", "tomato",
   "oregano", "mozzaretta cheese"]
 
-
 pepperoniPolenta = PepperoniPolenta.new(menu, ingredients)
 pepperoniPolenta.prepare_pizza
