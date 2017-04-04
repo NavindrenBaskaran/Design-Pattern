@@ -1,3 +1,8 @@
+require './Discount.rb'
+require './Student_Discount.rb'
+require './Member_Discount.rb'
+require './Normal_Discount.rb'
+
 class Customer
   attr_reader :chargeable
   def initialize
@@ -17,30 +22,6 @@ class Customer
     @strategy.calc(self)
   end
 end
-
-class Discount
-  def calc(customer)
-  end
-end
-
-class Student_Discount < Discount
-  def calc(customer)
-    customer.chargeable - (customer.chargeable * 0.1) + (customer.chargeable * 0.06)
-  end
-end
-
-class Member_Discount < Discount
-  def calc(customer)
-    customer.chargeable - (customer.chargeable * 0.5) + (customer.chargeable * 0.06)
-  end
-end
-
-class Normal_Discount < Discount
-  def calc(customer)
-    customer.chargeable + (customer.chargeable * 0.06)
-  end
-end
-
 
 customer = Customer.new
 customer.addOrder(1)
