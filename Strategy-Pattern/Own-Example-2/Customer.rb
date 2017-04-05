@@ -11,7 +11,9 @@ class Customer
   end
 
   def addOrder(price)
-    @chargeable = @chargeable + price
+    price.each do |x|
+      @chargeable = @chargeable + x
+    end
   end
 
   def customerType(type)
@@ -23,10 +25,11 @@ class Customer
   end
 end
 
+
+menu = [10.50, 15.60, 17.90, 35.90]
+
+
 customer = Customer.new
-customer.addOrder(1)
-customer.addOrder(2)
-customer.addOrder(3)
-customer.addOrder(4)
+customer.addOrder(menu)
 customer.customerType(Member_Discount.new)
 puts customer.checkout
