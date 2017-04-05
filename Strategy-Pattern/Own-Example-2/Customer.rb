@@ -28,7 +28,6 @@ end
 
 menu = [10.50, 15.60, 17.90, 35.90]
 
-
 customer = Customer.new
 customer.addOrder(menu)
 customer.customerType(Member_Discount.new)
